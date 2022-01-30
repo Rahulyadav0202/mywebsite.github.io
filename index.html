@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--navbar menu-->
+    <section class="navbar-info custom">
+        <div class="video">
+            <iframe
+                src="https://player.vimeo.com/video/611657256?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1&potrait=0&transparent=0"
+                frameborder="0"></iframe>
+        </div>
+        <nav class="navbar navbar-default navbar-me">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+
+                            <button class="menu">
+
+                                <i class="fas fa-bars"></i> Menu
+                            </button>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="logo">
+                                <a href="">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="inquiry">
+                                <div class="container"> <button class="btn btn-primary" data-toggle="modal"
+                                        data-target="#my-modal">Inquiry Now</button>
+                                    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered justify-content-center "
+                                            role="document">
+                                            <div class="modal-content border-0">
+                                                <div class="modal-body p-0">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col">
+                                                            <div class="card">
+                                                                <div class="card-header bg-white border-0">
+                                                                    <div
+                                                                        class="row justify-content-between align-items-center">
+                                                                        <div class="flex-col-auto"></div>
+                                                                        <div class="col-auto text-right"><button
+                                                                                type="button" class="close"
+                                                                                data-dismiss="modal" aria-label="Close">
+                                                                                <span class="cross"
+                                                                                    aria-hidden="true"><i
+                                                                                        class="fas fa-times"></i></span>
+                                                                            </button></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-body pt-0">
+                                                                    <div
+                                                                        class="row justify-content-center pb-sm-5 pb-3">
+                                                                        <div class="col-sm-10 col px-sm-0">
+                                                                            <h4 class="card-title mb-3 text-center">
+                                                                                <h3> Booking Enquiry</h3>
+                                                                            </h4>
+                                                                            <div class="row">
+                                                                                <div class="col"><input type="text"
+                                                                                        name="name" placeholder="Name*">
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col"><input type="text"
+                                                                                        name="email"
+                                                                                        placeholder="Email*"></div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col"><input type="tel"
+                                                                                        name="mobile-no"
+                                                                                        placeholder="Mobile Number*">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col"><select
+                                                                                        class="form-control">
+                                                                                        <option>Property Types</option>
+                                                                                        <option>Residential</option>
+                                                                                        <option>Commercial</option>
+                                                                                    </select></div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col"><button type="button"
+                                                                                        class="btn btn-primary btn-block">Submit</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menubar">
+                    <ul>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Residential</a>
+                        </li>
+                        <li>
+                            <a href="">Commercial</a>
+                        </li>
+                        <li>
+                            <a href="">Get In Touch</a>
+                        </li>
+
+                    </ul>
+                    <div class="customer-portal">
+                        <a href="">Customer-Portal</a>
+                    </div>
+                    <div class="close-button">
+                        <img src="images/menu-close-icon.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+    <!-- end of navbar-->
+    <!-- counter -->
+    <div class="counter11">
+        <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="counter">
+
+                        <h2 class="timer count-title count-number" data-to="3500" data-speed="1500"></h2>
+                        <p class="count-text ">HAPPY CUSTOMERS</p>
+                    </div>
+                    <div class="p">
+                        <p>Proud to add value in the lives of people who have trusted us</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter">
+
+                        <h2 class="timer count-title count-number" data-to="4.0" data-speed="1500"></h2>
+                        <p class="count-text ">MILLION SQ. FT. UNDER DEVELOPMENT</p>
+                    </div>
+                    <div class="p">
+                        <p>High speed development underway to deliver the most awaited commercial landmarks</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter">
+
+                        <h2 class="timer count-title count-number" data-to="3000" data-speed="1500"></h2>
+                        <p class="count-text ">CR WORTH PLANNED INVESTMENT</p>
+                    </div>
+                    <div class="p">
+                        <p>With a vision to transform commercial realty forever</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- wht's new -->
+    <div class="product-section">
+        <div class="container">
+            <h1><i>What's new</i>
+                at Experion</h1>
+
+        </div>
+        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#blogCarousel" data-slide-to="1"></li>
+                <li data-target="#blogCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/56kW0x1xQSQdt4wUj9yV.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/6YHSO6PHdwVn5zwbWqQL.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/jaCvGX0IiIATsoMvmF4R.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--.row-->
+                </div>
+                <!--.item-->
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/KLoSzJTJ7ks6nBno5mbE.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/MvuEyMT0zYt0M4vJKfc2.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/VA7o273VFaPhX1Bm0NUr.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/YD7kuepV7DRmiIQLp1Ja.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/56kW0x1xQSQdt4wUj9yV.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img src="images/MvuEyMT0zYt0M4vJKfc2.jpg" alt="Image" style="max-width:100%;">
+                            </a>
+                        </div>
+
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- play-section -->
+    <div class="play-section">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="content">
+                        <h5>Elan Group - Reinventing, reinnovating the connection between people and spaces.</h5>
+                        <p>
+                            The inception of this majestic firm is based on the philosophy of delivering what is
+                            promised. The allure of Elan’s elitism and refinement has earned the group many patrons. The
+                            partners and patrons are an integral part of its success story.
+                        </p>
+                        <div class="read more">
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="video-section">
+                        <button id="button"><i class="fa fa-play" aria-hidden="true"></i></button>
+                        <div id="lightbox">
+                            <i id="close-btn" class="fa fa-times"></i>
+                            <div id="video-wrapper">
+                                <iframe id="video" width="960" height="540"
+                                    src="https://www.youtube.com/embed/lJfqK9bgIng" frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- testimonial -->
+    <div class="testimonial">
+        <h3 class="heading">REWRITING</br>
+            THE RULES OF COMMERCIAL</br>
+            REAL ESTATE
+        </h3>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol> <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="item carousel-item active">
+                
+                      <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                   
+                </div>
+                <div class="item carousel-item">
+                    <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                </div>
+                <div class="item carousel-item">
+                    <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                </div>
+                <div class="item carousel-item">
+                    <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                </div>
+                <div class="item carousel-item">
+                    <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                </div>
+                <div class="item carousel-item">
+                    <div class="center">
+                        <h4><span>Launched</span></h4>
+                  
+                        <h3>2017</h3>
+                        <p>Elan Foundation</p>
+                      </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="left-side">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="right-side">
+                        <ul>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+
+                            <li>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center custom">
+                <div class="col-lg-3">
+                    <div class="first">
+                        <a href="">Blog</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="first">
+                        <a href="">Media</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="first">
+                        <a href="">Careers</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="first">
+                        <a href="">Construction Updates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  -->
+    <script>
+        $(document).ready(function () {
+            $(".menubar").hide();
+            $(".menu").click(function () {
+                $(".menubar").show(300);
+            });
+            $(".close-button").click(function () {
+                $(".menubar").hide(300);
+            });
+        });
+
+
+        $(document).ready(function () {
+
+            // When the button is clicked make the lightbox fade in in the span of 1 second, hide itself and start the video
+            $("#button").on("click", function () {
+                $("#lightbox").fadeIn(1000);
+                $(this).hide();
+                var videoURL = $('#video').prop('src');
+                videoURL += "?autoplay=1";
+                $('#video').prop('src', videoURL);
+            });
+
+            // When the close button is clicked make the lightbox fade out in the span of 0.5 seconds and show the play button
+            $("#close-btn").on("click", function () {
+                $("#lightbox").fadeOut(500);
+                $("#button").show(250);
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
